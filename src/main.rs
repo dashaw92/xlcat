@@ -24,7 +24,7 @@ fn main() {
                         _ => write!(lock, "{}\t", cell),
                     };
                 }
-                writeln!(lock, "\n");
+                write!(lock, "\n");
             }
         }
     }
